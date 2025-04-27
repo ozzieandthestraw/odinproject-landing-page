@@ -81,7 +81,7 @@ button {
 .info {
     display: flex;
     flex-direction: column;
-    padding: 32px 164px;
+    padding: 32px 164px 64px 164px;
     text-align: center;
     gap: 32px;
     font-size: 36px;
@@ -91,7 +91,6 @@ button {
 
 .info-images {
     display: flex;
-    flex: 1;
     justify-content: space-evenly;
 }
 
@@ -99,8 +98,8 @@ button {
     width: 180px;
     display: flex;
     flex-direction: column;
-    font-weight: 1;
     color: grey;
+    font-weight: 400;
     font-size: 18px;
     gap: 8px;
 }
@@ -108,4 +107,25 @@ button {
 img {
     border: 4px solid #3882F6;
     border-radius: 15px;
+}
+
+.quotebox {
+    padding: 64px 245px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    justify-content: flex-start;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: 900;
+    align-self: flex-end;
 }
